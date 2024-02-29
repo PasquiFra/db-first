@@ -6,8 +6,8 @@ Per la consegna, potete inserire la vostra tabella in un file markdown come vi h
 
 Colonne |   Tipo |  Attributi
  ---| ---|  ---|
-id | int | auto_increment
-targa| varchar(10) |  primary_key 
+id | int | primary_key, auto_increment
+targa| varchar(10) |   null, unique
 marca | varchar | notnull
 modello | varchar | notnull
 cilindrata | small int | notnull
